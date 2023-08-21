@@ -22,7 +22,7 @@ body {
 .container {
     background-color:rgb(158, 159, 167);
     border-radius: 5px;
-    box-shadow: 0 2px 10px red;
+    box-shadow: 0 2px 10px darkviolet;
     width: 400px;
 }
 
@@ -84,10 +84,10 @@ h2 {
 
 .form button {
     cursor: pointer;
-    background-color: lightgreen;
-    border: 2px solid red;
+    background-color: rgb(85, 83, 83);
+    border: 2px solid lightskyblue;
     border-radius: 5px;
-    color: black;
+    color: rgb(255, 255, 255);
     display: block;
     font-size: 16px;
     padding: 10px;
