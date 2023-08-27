@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
     <title>Movie Seat Selection</title>
 </head>
+
 <body>
     <!-- Container for movie -->
     <div class="movie-container">
         <label for="movie">Please pick a movie</label>
         <!-- This is the dropdown to select movies -->
         <select id="movie">
-            <option value="10">Jujutsu Kaisen 0 ($10)</option>
-            <option value="15">Dragon Ball Super: Broly ($15)</option>
-            <option value="20">Gintama: The Movie ($20)</option>
-            <option value="12">Bleach: Memories of Nobody ($12)</option>
-            <option value="17">One Piece Film: Red ($17)</option>
+            <option value="10">Jujutsu Kaisen 0 (10$)</option>
+            <option value="15">Dragon Ball Super: Broly (15$)</option>
+            <option value="20">Gintama: The Movie (20$)</option>
+            <option value="12">Bleach: Memories of Nobody(12$)</option>
+            <option value="17">One Piece Film: Red (17$)</option>
         </select>
     </div>
     <!-- Legend to display types of seats -->
     <ul class="showcase">
         <li>
             <div class="seat"></div>
-            <small>N/A</small>
+            <small>Avaliable</small>
         </li>
         <li>
             <div class="seat selected"></div>
@@ -101,18 +103,10 @@
         </div>
     </div>
 
-    <p class="text">You have selected <span id="count">0</span> Seats for a total price of $<span id="total">0</span> </p>
+    <p class="text">You have selected <span id="count">0</span> Seats for a total price of $<span id="total">0</span>
+    </p>
 
     <script src="script1.js"></script>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
