@@ -2,7 +2,7 @@
 const video = document.getElementById('video');
 const play = document.getElementById('play');
 const stop = document.getElementById('stop');
-const progress= document.getElementById('progress');
+const progress = document.getElementById('progress');
 const timestamp = document.getElementById('timestamp');
 
 // Create function for clicking on video
@@ -31,12 +31,12 @@ function updateProgress() {
 
     // Set the time for timestamp
     let mins = Math.floor(video.currentTime / 60);
-    if(mins < 10) {
+    if (mins < 10) {
         mins = '0' + String(mins);
     }
 
     let secs = Math.floor(video.currentTime % 60);
-    if(secs < 10) {
+    if (secs < 10) {
         secs = '0' + String(secs);
     }
 
@@ -59,16 +59,16 @@ function setVideoProgress() {
 
 // Event Listeners
 // 1. Event Listeners for the video player
-video.addEventListener('click',toggleVideoStatus);
-video.addEventListener('pause',updatePlayIcon);
-video.addEventListener('play',updatePlayIcon);
-video.addEventListener('timeupdate',updateProgress);
+video.addEventListener('click', toggleVideoStatus);
+video.addEventListener('pause', updatePlayIcon);
+video.addEventListener('play', updatePlayIcon);
+video.addEventListener('timeupdate', updateProgress);
 
 // 2. Event Listeners for Play Button
-play.addEventListener('click',toggleVideoStatus);
+play.addEventListener('click', toggleVideoStatus);
 
 // 3. Event Listeners for stop Button
-stop.addEventListener('click',stopVideo);
+stop.addEventListener('click', stopVideo);
 
 // 4. Event Listeners for Progress bar (Progress Bar is a Range input)
 progress.addEventListener('change', setVideoProgress);
