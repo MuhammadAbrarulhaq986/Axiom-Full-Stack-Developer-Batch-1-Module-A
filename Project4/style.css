@@ -27,7 +27,7 @@ p {
     background-color: darkorange;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 12px bold;
     padding: 5px 10px;
 }
 
