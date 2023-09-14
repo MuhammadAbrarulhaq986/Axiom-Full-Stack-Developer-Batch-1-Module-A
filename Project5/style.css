@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -59,129 +59,13 @@ h3 {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    font-weight: bold; margin: 20px 0 0;
+    font-weight: bold;
+    margin: 20px 0 0;
 }
 
 .user {
     display: flex;
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
