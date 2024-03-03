@@ -11,6 +11,7 @@ const figureParts = document.querySelectorAll('.figure-part');
 
 // This is the pool of words which will be used to select a random words
 const words = ["jungle", "clearly", "excited", "generally", "sometime", "volume", "joy", "stuck", "fox", "red", "prize", "tone", "stronger", "spring", "did", "heavy", "money", "score", "nothing", "end", "clothes", "new", "supply", "value", "cut", "practical", "soon", "settlers", "wrong", "which", "concerned", "sharp", "next", "write", "fellow", "wonderful", "lesson", "lose", "with", "found", "tea", "suppose"];
+
 // const words = ['bad', 'no', 'yes'];
 
 // Select a word at random words from array
